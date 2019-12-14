@@ -1,0 +1,46 @@
+//json products objects page
+
+
+// 2. Products should be stored in a .json file and accessed using JavaScript. Information
+// should include the name of the product, the price, a description, features and an image
+{
+"storeName" : "Weird Deals",
+"storeLocation" : "129 Dunsmore lane",
+"phoneNumber" : "(705) 500-5690", 
+"active" : true,
+"deals" : [
+  {
+    "productName" : "The Big Toe", 
+    "price" : 4.50,
+    "description" : "Free your big toes with these one of a kind socks!", 
+    "features" : [
+      "roomy", 
+      "blue", 
+      "happy face toe art not included." 
+    ],
+    "image": "img/socks.jpg"
+  },
+  
+  {
+    "productName" : "Minimalist-Life", 
+    "price" : 89.99,
+    "description" : "Live with less, you can do it too.",
+    "features" : [
+      "only inclues a sence of wellbeing"
+    ],
+    "image" : "img/minimalist-life.jpg"
+  },
+  
+  {
+    "productName" : "Plant and Paper",
+    "price" : 25.00,
+    "description" : " the only art book that comes with a live plant to draw.",
+    "features" : [
+      "Funny looking plant", 
+      "Basic drawing pad", 
+      "pencils not included."
+    ],
+    "image" : "img/plant-and-paper.jpg"
+    }
+  ]
+}
